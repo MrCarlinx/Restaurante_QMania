@@ -3,17 +3,17 @@
 //VARIAVEIS DO PROJETO
 $url = 'http://restaurante.hugocursos.com.br/'; //caminho do projeto, url do dominio, sempre por a barra no final
 $nome_site = 'FREITAS FOOD';
-$email_adm = 'hugovasconcelosf@hotmail.com';
-$endereco_site = 'Rua X, Número 50, Bairro Centro - Belo Horizonte - MG CEP 30214-850';
+$email_adm = 'david.pvh25@gmail.com';
+$endereco_site = 'Rua Tabajara, Número 539, Bairro Panair - Porto Velho - RO CEP 76801-348';
 $telefone_fixo = '(33) 3333-3333';
 $telefone_whatsapp = '(33) 93333-3333';
 $telefone_whatsapp_link = '5531933333333';
 $cnpj_site = '10.301.706/0001-08';
 
 //VARIAVEIS PARA REDES SOCIAIS - Se você deixar algum campo vazio não será mostrado o ícone para aquela rede social no rodapé.
-$instagram = 'https://www.instagram.com/hugovasconcelosfreitas/';
-$facebook = 'https://www.facebook.com/hugovasconcelosfreitas/';
-$youtube = 'https://www.youtube.com/channel/UCawdQwVpEcbcVpEfwAmbx9Q';
+$instagram = '';
+$facebook = '';
+$youtube = '';
 $googleplus = '';
 $twitter = 'https://www.google.com/';
 
@@ -39,7 +39,7 @@ $nivel_estoque = 10;
 
 $relatorio_pdf = 'Sim'; //Se você não quiser usar a biblioteca do dompdf para gerar os relatórios coloque não nessa opção que ele irá gerar um relatório html, este relatório você poderá salvá-lo também como pdf se necessário.
 
-$rodape_relatorios = "Sistema Desenvolvido por Hugo Vasconcelos do Portal Hugo Cursos!";
+$rodape_relatorios = "Sistema Desenvolvido por Empresa de Desenvolvimento CXD!";
 
 $comissao = 0.1; //0.1 define 10% de comissão para o garçon, caso o restaurante não vá trabalhar com comissão, pode deixar 0;
 

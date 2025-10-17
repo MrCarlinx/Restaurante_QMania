@@ -282,10 +282,10 @@ if($total_reg > 0){
 								<div class="card-body">
 									<div class="row">
 										<div class="align-self-center col-3">
-											<i class="bi bi-cash <?php echo $classeSaldo ?> fs-1 float-start"></i>
+											<i class="bi bi-cash <?php echo @$classeSaldo ?> fs-1 float-start"></i>
 										</div>
 										<div class="col-9 text-end">
-											<h3> <span class="<?php echo $classeSaldo ?>">R$ <?php echo @$saldoF ?></span></h3>
+											<h3> <span class="<?php echo @$classeSaldo ?>">R$ <?php echo @$saldoF ?></span></h3>
 											<span>Saldo do Dia</span>
 										</div>
 									</div>
@@ -411,7 +411,7 @@ if($total_reg > 0){
 												<span>Total Arrecado este Mês</span>
 											</div>
 											<div class="text-end col-5">
-												<h2><span class="<?php echo $classeSaldoM ?>">R$ <?php echo @$saldoMesF ?></h2></span>
+												<h2><span class="<?php echo @$classeSaldoM ?>">R$ <?php echo @$saldoMesF ?></h2></span>
 											</div>
 										</div>
 									</div>
@@ -550,7 +550,7 @@ for($i=1; $i<13; $i++){
 	
 
 $dataMesInicio = $ano_atual."-".$i."-01";
-$dataMesFinal = $ano_atual."-".$i."-31";
+$dataMesFinal = $ano_atual."-".$i."-28";
 $totalVenM = 0;
 		$query = $pdo->query("SELECT * from pedidos where data >= '$dataMesInicio' and data <= '$dataMesFinal'");
 		$res = $query->fetchAll(PDO::FETCH_ASSOC);
