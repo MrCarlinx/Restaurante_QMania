@@ -786,7 +786,7 @@ if($total_cat > 0){
 
   <!-- Start Map section -->
   <section id="mu-map">
-   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12619.277948653296!2d-43.97029075968228!3d-19.893460198331656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699c38239d527%3A0xdd57d85a12f2b59b!2sShopping%20Del%20Rey!5e0!3m2!1spt-BR!2sbr!4v1615833767711!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+   <iframe src="https://www.google.com/maps/place/Senac+Rond%C3%B4nia+(Esplanada)/data=!4m2!3m1!1s0x0:0xc32a15bc78d82706?sa=X&ved=1t:2428&ictx=1" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
  </section>
  <!-- End Map section -->
 
